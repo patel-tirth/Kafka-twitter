@@ -25,10 +25,10 @@ import java.util.concurrent.TimeUnit;
 public class TwitterProducer {
 
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
-    private String consumerKey = "yqYDJforxCNYcIWhCvudUryU0";
-    private String consumerSecret = "TmAOrO0omgKybe8EUOXOXUFVumXyjRXUwJWZ7TdMgtVfdeT7t1";
-    private String token = "2868670178-dYa1orqSeMvJQOHP7G3z58nSz1D4Wsmh2QCJ8Go";
-    private String secret = "4UXNnNtKckzGl8Du8G4uKwxZ2cbAWBbTxwoBXIbwgkfKx";
+    private String consumerKey = "";
+    private String consumerSecret = "";
+    private String token = "";
+    private String secret = "";
     List<String> terms = Lists.newArrayList("bitcoin","usa","politics","sport", "soccer");
 
     public TwitterProducer()  {
